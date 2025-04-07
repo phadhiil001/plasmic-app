@@ -1,0 +1,84 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "eWGJA79AsDL3mo7LzqxJ7Z",
+      "projectApiToken": "vkMelvyAEB9Yz35uxTeAwqmtUOrx07OR0Ma6p8zWcycZPqSYbkoos8mWpWGUwc1rBRqqVaYVymX5MPXXmHg",
+      "projectName": "Tutorial",
+      "version": "latest",
+      "cssFilePath": "plasmic/tutorial/plasmic.module.css",
+      "components": [
+        {
+          "id": "w6-kvztCPNmg",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "eWGJA79AsDL3mo7LzqxJ7Z",
+          "renderModuleFilePath": "plasmic/tutorial/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/tutorial/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "9JpSCykh-_7S",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "kMa8fesTfZ2X",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "R4q28RGc7CFI",
+        "name": "Screen",
+        "projectId": "eWGJA79AsDL3mo7LzqxJ7Z",
+        "contextFilePath": "plasmic/tutorial/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.337",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.337/dist/plasmic.schema.json"
+}
