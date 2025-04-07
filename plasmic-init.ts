@@ -25,9 +25,10 @@ PLASMIC.registerComponent(AlertBox, {
       },
     },
   });
-
+  
   PLASMIC.registerComponent(ProductCard, {
     name: 'ProductCard',
+    importPath: './components/ProductCard',
     props: {
       productId: 'string',
       productName: 'string',
